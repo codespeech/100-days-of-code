@@ -26,3 +26,22 @@ Now I need to update the public key file in my github account. Go to [SSH and GP
 Now we can try to clone our repo again and it should not throw any error.
 
 ![Success](001-success-cloning.png)
+
+
+Now it is possible that we want to use different github accounts on the same machine. So we may need to setup a config file in `~/.ssh` directory.
+
+```
+# Defaut account
+Host github.com
+   HostName github.com
+   User git
+   IdentityFile ~/.ssh/[private_key_file1]
+
+# Work account-1
+Host github.com-[identifier2]    
+   HostName github.com
+   User git
+   IdentityFile ~/.ssh/[private_key_file2]
+```
+
+We just need to make sure that host name of git url matches with the host name setup in config file.
