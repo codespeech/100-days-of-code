@@ -6,4 +6,4 @@
 * Committed to the [#100DaysOfCode Challenge](https://www.100daysofcode.com/).
 * Setup github repo [100DaysOfCode](https://github.com/codespeech/100-days-of-code)
 * Created **this** progress log! ☺
-* Created ssh-key on my machine and added in my github account. See setting up-ssh-key-in-github
+* Created ssh-key on my machine and added in my github account. See [setting up-ssh-key-in-github](Round1-%20Setup%20and%20Bootstraping/001-setting-up-ssh-key-in-github.md).
