@@ -21,7 +21,11 @@ Let say I named my key to "codespeech" then it will generate two files in my cho
 
 ```ssh-add [path-to-our-private-key-file]```
 
-Now I need to update the public key file in my github account. Go to [SSH and GPG keys](https://github.com/settings/keys) section in our account section. Click on New [SSH key button](https://github.com/settings/ssh/new) and add content of our public key file there with appropriate name.
+To list down all the private keys we have added to ssh-agent, use following command:
+
+```ssh-add -l```
+
+Now we need to update the public key file in my github account. Go to [SSH and GPG keys](https://github.com/settings/keys) section in our account section. Click on New [SSH key button](https://github.com/settings/ssh/new) and add content of our public key file there with appropriate name.
 
 Now we can try to clone our repo again and it should not throw any error.
 
