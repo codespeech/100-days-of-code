@@ -31,7 +31,7 @@ Now we can try to clone our repo again and it should not throw any error.
 Now it is possible that we want to use different github accounts on the same machine. So we may need to setup a config file in `~/.ssh` directory.
 
 ```
-# Defaut account
+# Default account
 Host github.com
    HostName github.com
    User git
